@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>
     
@@ -57,7 +58,7 @@
             <input type="text" name="" id="" placeholder="Enter your email address" required>
             <textarea name="" id="" placeholder="Message..." required></textarea>
             <button class="send">Send</button>
-            <button class="close" id="closeBtnwhite">Close</button>
+            <button class="close" id="closeBtnwhite" onclick="closeModal()">Close</button>
 
 
         </div>
@@ -98,7 +99,6 @@
         </div>
     </div>
 
-
     </div>
 
 
@@ -107,6 +107,56 @@
         
         <button id="showBtn">Contact Us</button>
     </div>
+
+    <!-- Intro -->
+
+    <div class="intro">
+         <div class="introContainer">
+            <div class="introleftPanel">
+
+                <div class="introleftPanel-container">
+
+                    <div class="introleftPanel-upper">
+                    <p>Web Developer & <br>
+                    Graphics Designer</p>
+                    </div>
+
+                    <div class="introleftPanel-middle">
+                        <button>View Project</button>
+                        <button>Resume</button>
+                    </div>
+                
+                    <div class="introleftPanel-bottom">
+                        <button><img src="imgFolder/socials/facebook (1).png" alt=""></button>
+                        <button><img src="imgFolder/socials/social.png" alt=""></button>
+                        <button><img src="imgFolder/socials/linkedin.png" alt=""></button>
+                        <button><img src="imgFolder/socials/upwork.png" alt=""></button>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        <div class="introrightPanel">
+            <div class="introrightPanel-middle">
+                <img src="imgFolder/2x2.png" alt="">
+            </div>
+        </div>
+
+        </div>
+                <div class="learnMore-container">
+                    <div>
+                        <p>Learn more about me</p>
+                    </div>
+                    <div>
+                        <img src="imgFolder/arrow.png" alt="">
+                    </div>
+                </div>
+    </div>
+
+    
+
     <script src="script.js" defer></script>
+
 </body>
 </html>
